@@ -1,0 +1,151 @@
+{"todos":
+	{
+	"menusPrincipal":[
+	  					{
+						  	"nombre":"Documentos",
+							"estado":true,
+							"icono":"icon-folder-close-alt",
+						  	"seleccionado":true,
+					  		"codigo":"10"
+						},
+						{
+						  	"nombre":"Productos Consumidos",
+							"estado":true,
+							"icono":"icon-shopping-cart",
+							"seleccionado":false,
+						  	"codigo":"40"
+						},
+						{
+						  	"nombre":"Impuestos Retenidos",
+							"estado":true,
+							"icono":"icon-suitcase",
+							"seleccionado":false,
+							"codigo":
+							"90"
+						},
+						{
+						  	"nombre":"Mis datos",
+							"estado":true,
+							"icono":"icon-user",
+							"seleccionado":false,
+						  	"codigo":"50"
+						},
+	  					{
+						  	"nombre":"Soperte en l\u00EDnea",
+							"estado":true,
+							"icono":"icon-male",
+							"seleccionado":false,
+							"codigo":"80"
+						},
+	  					{
+						  	"nombre":"Configuraci\u00F3n",
+							"estado":true,
+							"icono":"icon-cog",
+							"seleccionado":false,
+							"codigo":"70",
+							"submenu":[
+										{
+										  	"nombre":"Web Service",
+										  	"estado":true,
+										  	"icono":"icon-cloud-upload",
+										  	"seleccionado":false,
+										  	"url":"/administracion-edi"
+										},
+							  			{
+										  	"nombre":"Usuarios conectados",
+										  	"estado":true,
+										  	"icono":"icon-male",
+										  	"seleccionado":false,
+										  	"url":"/usuarios-conectados"
+										},
+							  			{
+										  	"nombre":"Robots",
+										  	"estado":true,
+										  	"icono":"icon-group",
+										  	"seleccionado":false,
+										  	"url":"/administracion-robots/ingresar"
+										},
+										{
+										  	"nombre":"Notificaciones",
+										  	"estado":true,
+										  	"icono":"icon-refresh",
+										  	"seleccionado":false,
+										  	"submenunoti":
+											true
+										}
+									]
+						},
+						{
+						  	"nombre":"Subir archivo",
+							"estado":true,
+							"icono":"icon-file",
+						  	"seleccionado":false,
+							"codigo":"100"
+						}
+					],
+	"tipoIdentificaconTabla7Sri" :
+					[
+						{"nombre":"RUC","valor":"04"},
+						{"nombre":"CEDULA","valor":"05"},
+						{"nombre":"PASAPORTE","valor":"06"},
+						{"nombre":"VENTA A CONSUMIDOR FINAL","valor":"07"},
+						{"nombre":"IDENTIFICACION DEL EXTERIOR","valor":"08"},
+						{"nombre":"PLACA","valor":"09"}
+					],
+	
+	"emisionSri" : 	[
+					{"nombre":"Normal ","valor":"1"},
+					{"nombre":"Indisponibilidad del Sistema","valor":"2"}
+					],
+	"ambienteSri" : [
+					{"nombre":"Pruebas","valor":"1"},
+					{"nombre":"Producci\u00F3n","valor":"2"}
+				],
+	"impuestoTabla17Sri" :  [
+							{"nombre":"IVA","valor":"2"},
+							{"nombre":"ICE","valor":"3"},
+							{"nombre":"IRBPNR","valor":"5"}
+						],
+	"tarifaDelIvaTabla18Sri"=  [
+							{"nombre":"0%","valor":"0"},
+							{"nombre":"12%","valor":"2"},
+							{"nombre":"No objeto de Impuesto","valor":"6"},
+							{"nombre":"Exento de Iva","valor":"7"}
+							],
+	"estados" : [
+				{"codigo":"B","detalle":"RECIBIDO POR EDI","selected":"d"},
+				{"codigo":"E","detalle":"ENVIADO AL SRI","selected":"d"},
+				{"codigo":"R","detalle":"RECIBIDO POR EL SRI","selected":"d"},
+				{"codigo":"A","detalle":"AUTORIZADO POR EL SRI","selected":"selected"},
+				{"codigo":"N","detalle":"NO AUTORIZADO POR SRI","selected":"d"},
+				{"codigo":"D","detalle":"DEVUELTA POR EL SRI","selected":"d"},
+				{"codigo":"G","detalle":"CONTINGENCIA","selected":"d"},
+				{"codigo":"X","detalle":"ANULADA POR EDI","selected":"d"},
+				{"codigo":"P","detalle":"PENDIENTE AUTORIZACION","selected":"d"},
+				{"codigo":"C","detalle":"NO CONEX. CON EL SRI","selected":"d"},
+				{"codigo":"S","detalle":"NO CONEX. SRI XML ENV. ","selected":"d"},
+				{"codigo":"O","detalle":"ANULADA EN AMB. PRODUCCION","selected":"d"}
+			],
+	"estados_bitacora" : {"B":"RECIBIDO POR EDI",
+						"E":"ENVIADO AL SRI",
+						"R":"RECIBIDO POR EL SRI",
+						"A":"AUTORIZADO POR EL SRI",
+						"N":"NO AUTORIZADO POR SRI",
+						"D":"DEVUELTA POR EL SRI",
+						"G":"CONTINGENCIA",
+						"X":"ANULADA POR EDI",
+						"P":"PENDIENTE AUTORIZACION",
+						"C":"NO CONEX. CON EL SRI",
+						"S":"NO CONEX. SRI XML ENV. ",
+						"O":"ANULADA EN AMB. PRODUCCION"},	
+	"labelsReferencia":
+					{
+					"1":"Gu\u00EDa de remisi\u00F3n",
+					"2":"Tipo Doc/N\u00FAmero/Fecha de sustento",
+					"3":"Tipo Doc/N\u00EDmero/Fecha de sustento",
+					"4":"Destinatario/Direcci\u00F3n/Tipo Doc/Numero/Fecha de sustento",
+					"5":"Codigo Imp./Documento/Fecha de sustento"
+					}
+		
+	}		
+}
